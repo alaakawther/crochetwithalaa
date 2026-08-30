@@ -1,4 +1,4 @@
-# 🧶 Crochet With Alaa
+# Crochet With Alaa
 
 A terminal-based Python program that helps crochet beginners learn to crochet, discover projects to make, and look up quick crochet reference info.
 
@@ -35,7 +35,7 @@ crochetwithalaa/
 
 ## Status
 
-🚧 Built over 4 days:
+ Built over 4 days:
 
 - **Day 1** — Scaffolding: folders, data, and documentation
 - **Day 2** — Implementing the logic across the project
