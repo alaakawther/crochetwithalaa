@@ -3,9 +3,9 @@ from utils.input_handler import get_choice
 from data.projects import PROJECTS
 
 TITLES = {
-    None: "🧵 CROCHET PATTERNS",
-    "beginner": "🧵 BEGINNER PATTERNS",
-    "advanced": "🧵 ADVANCED PATTERNS",
+    None: " CROCHET PATTERNS",
+    "beginner": " BEGINNER PATTERNS",
+    "advanced": " ADVANCED PATTERNS",
 }
 
 

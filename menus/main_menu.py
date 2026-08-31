@@ -8,7 +8,7 @@ from menus.tools_menu import show_tools_menu
 def show_main_menu():
     while True:
         print_title("🧶 CROCHET WITH ALAA")
-        show_message("Welcome, beginner! 🌸")
+        show_message("Welcome, beginner! 😶‍🌫️")
         show_message("")
         show_message("1. Learn Crochet")
         show_message("2. Crochet Patterns")
