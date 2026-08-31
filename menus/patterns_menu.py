@@ -1,8 +1,6 @@
 from utils.display import print_title, show_message
 from utils.input_handler import get_choice
 from data.projects import PROJECTS
-from features.projects import show_project
-from features.custom_tutorial import create_tutorial
 
 TITLES = {
     None: "🧵 CROCHET PATTERNS",
@@ -30,7 +28,3 @@ def show_patterns_menu(category=None):
 
         if choice == 99:
             return
-        elif choice == 0:
-            create_tutorial()
-        else:
-            show_project(choice)
