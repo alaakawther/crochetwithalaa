@@ -1,34 +1,30 @@
-"""
-menus/main_menu.py
-
-The first screen the user sees when the program starts.
-
-Day 3 TODO:
-    - Print the menu below using utils.display helpers
-    - Read the user's choice with utils.input_handler
-    - Route:
-        1 -> menus.learn_menu.show_learn_menu()
-        2 -> menus.patterns_menu.show_patterns_menu()
-        3 -> menus.tools_menu.show_tools_menu()
-        4 -> exit the program
-
-Target output:
-
-    ================================
-           🧶 CROCHET WITH ALAA
-    ================================
-
-    Welcome, beginner! 🌸
-
-    1. Learn Crochet
-    2. Crochet Patterns
-    3. Crochet Tools
-    4. Exit
-
-    Choose an option:
-    >
-"""
+from utils.display import print_title, show_message
+from utils.input_handler import get_choice
+from menus.learn_menu import show_learn_menu
+from menus.patterns_menu import show_patterns_menu
+from menus.tools_menu import show_tools_menu
 
 
 def show_main_menu():
-    pass
+    while True:
+        print_title("🧶 CROCHET WITH ALAA")
+        show_message("Welcome, beginner! 🌸")
+        show_message("")
+        show_message("1. Learn Crochet")
+        show_message("2. Crochet Patterns")
+        show_message("3. Crochet Tools")
+        show_message("4. Exit")
+        show_message("")
+
+        choice = get_choice("Choose an option:", [1, 2, 3, 4])
+
+        if choice == 1:
+            show_learn_menu()
+        elif choice == 2:
+            show_patterns_menu()
+        elif choice == 3:
+            show_tools_menu()
+        else:
+            show_message("")
+            show_message("Happy crocheting! 🧶 Goodbye!")
+            return
