@@ -43,6 +43,16 @@ crochetwithalaa/
 - **Day 4** — Testing, fixing issues, and publishing
 > The project grew as I worked on it. I didn’t create everything at once — I added files, features, and improvements gradually whenever I came up with a better idea or realized something was missing.
 
+## what i learned 
+
+
+ * JSON Data Persistence: Learned how to use JSON to store and save user-inputted data.
+ * Debugging Skills: Developed strong debugging techniques to identify and fix issues efficiently.
+ * Task & Time Management: Mastered breaking down project tasks into structured, day-by-day goals.
+ * Database Fundamentals: Expanded my knowledge and understanding of database management.
+ * Code Prioritization: Learned how to organize code and prioritize critical functionality effectively.
+ * Python & Algorithms: Significantly improved my Python proficiency and algorithms problem-solving skills.
+ 
 ## Author
 
 Built by [Alaa](https://github.com/alaakawther) 🧶
