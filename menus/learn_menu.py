@@ -1,5 +1,6 @@
 from utils.display import print_title, show_message
 from utils.input_handler import get_choice
+from features.beginner import show_beginner_path
 from menus.patterns_menu import show_patterns_menu
 
 
@@ -23,7 +24,9 @@ def show_learn_menu():
 
         choice = get_choice("Choose an option:", [0, 1, 2, 3, 4])
 
-        if choice in (2, 3):
+        if choice == 1:
+            show_beginner_path()
+        elif choice in (2, 3):
             show_patterns_menu(category="beginner")
         elif choice == 4:
             show_patterns_menu(category="advanced")

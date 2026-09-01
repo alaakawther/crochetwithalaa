@@ -6,7 +6,7 @@ PROJECTS = {
     5: {"name": "Button Cover", "category": "beginner", "url": "https://youtu.be/KF924-Sn6Jo"},
     6: {"name": "Jewelry Holder", "category": "beginner", "url": "https://youtu.be/SPi3596MHHI"},
     7: {"name": "Flower Coaster", "category": "beginner", "url": "https://youtu.be/mVRBxiLlWyA"},
-    8: {"name": "Lily of the Valley Curtain Tiebacks", "category": "beginner", "url": "https://youtu.be/RuIkZgBiJcs"},
+    8: {"name": "Curtain accessory", "category": "beginner", "url": "https://youtu.be/RuIkZgBiJcs"},
     9: {"name": "Headphone Sprout", "category": "beginner", "url": "https://youtu.be/CrhqPdazVCg"},
     10: {"name": "Daisy Bracelet — Yarnivora", "category": "beginner", "url": "https://youtu.be/RS2ICDlmX2o"},
     11: {"name": "Hairband", "category": "beginner", "url": "https://youtu.be/4RYE2YIMlZE"},

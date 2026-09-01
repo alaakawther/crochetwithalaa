@@ -1,5 +1,6 @@
 from utils.display import print_title, show_message
 from utils.input_handler import get_choice
+from features.tools import show_tool_info
 
 TOOL_OPTIONS = {
     1: ("Yarn", "yarn"),
@@ -33,3 +34,4 @@ def show_tools_menu():
             return
 
         label, topic = TOOL_OPTIONS[choice]
+        show_tool_info(topic, label)
